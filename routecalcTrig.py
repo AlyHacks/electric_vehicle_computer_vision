@@ -11,14 +11,15 @@ def length(pot1, pot2):
 def main():
     #Point Coordinates (cm)
     A = (0,0)
-    B = (1000,0)
+    B = (1000,0) #Bx can change
     C = (500, 100)
     D = (500, 70) # Dy can change
 
     #Car dimension
-    w = 20
-    L = 30
-    R = 10
+    wd = 17.5           #wheel distance of the wheels， center to center
+    w = 20              #actual width of the car
+    L = 30              #length of the car
+    R = 10              #rotation radius in cm
     T_required = 50
 
 
